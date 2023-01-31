@@ -1,0 +1,7 @@
+x<-list(name="swathi",account no=1234,amount = 500)
+class(x)<-"bank"
+x
+print
+methods(print)
+Method("print",amount)
+Method(print.getAnywhere())
