@@ -1,0 +1,11 @@
+df = data.frame(
+"ID" =c(1,2,3,4),
+"name" = c("tony","bhava","kav","sumi"),
+"age"= c(30,24,19,60),
+"pin" = c(756083,756801,751003,110011)
+)
+con = file("myfile.csv","wb")
+writeBin(colnames(df),con)
+writeBin(c(df$ID, df$Name,df$age,df$pin),con)
+close(con)
+install.packages("dplyr")
