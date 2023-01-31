@@ -1,0 +1,6 @@
+ls()
+year_of_experience<-c(8,10,10,1,10,10,8,12,1,12)
+sum(year_of_experience)
+mean(year_of_experience)
+median(year_of_experience)
+length(year_of_experience)
